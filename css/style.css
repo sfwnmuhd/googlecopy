@@ -145,3 +145,32 @@ footer .last{
 footer .left a:hover, footer .right a:hover{
     text-decoration: underline;
 }
+
+
+@media(max-width: 767px){
+    .wrapper input{
+        width: 400px;
+    }
+    .wrapper .lang{
+        flex-direction: column;
+        text-align: center;
+    }
+    .wrapper .lang h5{
+        margin-bottom: 10px;
+    }
+    .wrapper .lang a{
+        margin:10px;
+        padding: 10px;
+        
+    }
+
+    footer .last{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    footer .left{
+        margin-bottom: 10px;
+    }
+
+}
